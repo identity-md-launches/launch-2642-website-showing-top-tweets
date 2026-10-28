@@ -1,0 +1,13 @@
+# Explicit submission path budget (8 MiB maximum):
+# dist/ <= 2 MiB; public/ <= 2 MiB; src/, scripts/, docs/, config and lockfile <= 1 MiB.
+# Target total <= 5 MiB, leaving 3 MiB headroom. dist/ is deliberately included.
+**/node_modules/
+**/.npm/
+**/.cache/
+**/.vite/
+**/.vite-temp/
+**/playwright-report/
+**/test-results/
+**/.playwright-mcp/
+test/scratch/
+*.tsbuildinfo

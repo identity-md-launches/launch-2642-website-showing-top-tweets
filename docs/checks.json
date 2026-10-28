@@ -1,0 +1,428 @@
+{
+  "scope": "Final dist/ export under a relative /preview/ path; Chromium; captured 2026-10-28",
+  "interaction": {
+    "passed": 48,
+    "results": [
+      {
+        "name": "Initial feed shows six sourced tweets",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Default order uses captured likes",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Original tweet opens through an actual X source link",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Show more reveals all twelve tweets",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Newest sort orders real post timestamps",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Repost sort orders captured repost counts",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "AI & agents filter returns the matching posts",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Building filter returns the matching posts",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Community filter returns the matching posts",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Search is case-insensitive and trims spaces",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Search matches multiple terms",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Search finds author handles",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Clear search returns focus to the field",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Empty search explains the state and offers reset",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Empty-state reset restores feed",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Topic and search combine correctly",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Bookmark has selected state",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Saved navigation shows the saved post",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Saved view retains one main page heading",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Bookmarks survive reload and saved deep-link",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Unsave reaches useful empty state and preserves keyboard focus",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Empty saved view returns to the feed",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Share copies the actual source URL",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Copy confirmation can be dismissed",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "About dialog opens with focus inside",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Native modal keeps background page controls out of the keyboard flow",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Escape closes dialog and restores trigger focus",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Dialog close control works",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Axe accessibility scan has no violations",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "No horizontal overflow at 320px",
+        "passed": true,
+        "evidence": "{\"scroll\":320,\"viewport\":320}"
+      },
+      {
+        "name": "No horizontal overflow at 390px",
+        "passed": true,
+        "evidence": "{\"scroll\":390,\"viewport\":390}"
+      },
+      {
+        "name": "390px first screen shows complete first tweet excerpt and main action",
+        "passed": true,
+        "evidence": "{\"product\":{\"x\":35,\"y\":697.6875,\"width\":320,\"height\":76.78125},\"action\":{\"x\":36,\"y\":243.3125,\"width\":185,\"height\":44}}"
+      },
+      {
+        "name": "No horizontal overflow at 704px",
+        "passed": true,
+        "evidence": "{\"scroll\":704,\"viewport\":704}"
+      },
+      {
+        "name": "No horizontal overflow at 990px",
+        "passed": true,
+        "evidence": "{\"scroll\":990,\"viewport\":990}"
+      },
+      {
+        "name": "No horizontal overflow at 1440px",
+        "passed": true,
+        "evidence": "{\"scroll\":1440,\"viewport\":1440}"
+      },
+      {
+        "name": "Hero action takes keyboard focus to the feed",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Mobile search remains usable",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Reduced motion removes transitions",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Forced-colors keyboard focus remains visible",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "RTL layout has no horizontal overflow",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "200% text enlargement reflows without horizontal overflow",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Denied clipboard opens a selectable real source link",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Share fallback closes with Escape",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Blocked localStorage is explained and in-memory saves still work",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Malformed bookmark data recovers without misleading storage warning",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "All displayed local images load",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "Local Manrope font loads",
+        "passed": true,
+        "evidence": ""
+      },
+      {
+        "name": "No console page errors or failed local resources",
+        "passed": true,
+        "evidence": ""
+      }
+    ],
+    "limitations": [
+      "WebKit could not launch: its required native runtime libraries are unavailable. Safari rendering and interaction remain unverified."
+    ],
+    "errors": []
+  },
+  "designProbe": {
+    "passed": 16,
+    "total": 16,
+    "checks": [
+      {
+        "name": "render",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 8836,
+        "output": "renders, no script errors or missing local files"
+      },
+      {
+        "name": "layout",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "no horizontal scroll at 320, 390 or 1440\nno text box overlaps another\nno floating control covers text\nno text cut off by overflow: hidden"
+      },
+      {
+        "name": "targets",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "all 45 controls at least 24px or spaced at 390\n36 under the 44px comfortable size"
+      },
+      {
+        "name": "contrast",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "all measured text meets 4.5:1 (3:1 large)\n4 text boxes over images, video, canvas or gradients not measured"
+      },
+      {
+        "name": "casing",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "no all-caps text in content"
+      },
+      {
+        "name": "tracking",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "letter-spacing natural in content (display type may run tight)"
+      },
+      {
+        "name": "eyebrows",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 1,
+        "output": "no kicker labels above headings"
+      },
+      {
+        "name": "type-sizes",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "390: 4 sizes in use, 6 with one-offs (13px\u00d769, 14px\u00d711, 16px\u00d76, 20px\u00d71, 24px\u00d71, 32px\u00d72)\n1440: 5 sizes in use, 5 with one-offs (13px\u00d774, 14px\u00d722, 16px\u00d710, 24px\u00d76, 56px\u00d72)\nbar: 6 sizes used more than once, 8 counting one-offs, per width"
+      },
+      {
+        "name": "type-faces",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "families (1): manrope variable\nweights (3): 400, 600, 700"
+      },
+      {
+        "name": "glyphs",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "no em dashes or emoji in text"
+      },
+      {
+        "name": "slogans",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "3 two-beat lines; a stack is four or more, so keep the best and cut the rest:\n\"IdentityMD. Above the noise.\" (#hero-title)\n\"Different perspectives. One very interesting experiment.\" (div.content-layout:nth-of-type(2) > aside.sidebar > section.sidebar-section:nth-of-type(3) > p)\n\"Small frogs. Big compute.\" (div.content-layout:nth-of-type(2) > aside.sidebar > section.swarm-note:nth-of-type(4) > h2)"
+      },
+      {
+        "name": "repetition",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 1,
+        "output": "no repeated lines"
+      },
+      {
+        "name": "copy-budget",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "prose on the first screen: 12 words at 390 (bar 60), 21 at 1440 (bar 90)\nall words on the first screen: 76 at 390, 131 at 1440\nwhole page: 326 words, 61 of them prose"
+      },
+      {
+        "name": "chrome",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "border and shadow together: 0\ncards inside cards: 0\ngradient text: 0"
+      },
+      {
+        "name": "motion",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "transition: all on 0 elements\nendless animations: 0; still running with reduced motion: 0"
+      },
+      {
+        "name": "share",
+        "passed": true,
+        "exitCode": 0,
+        "durationMs": 0,
+        "output": "title \"The Swamp \u2014 Top IdentityMD tweets\", favicon, og:title, og:image, description"
+      }
+    ]
+  },
+  "heroContrast": [
+    {
+      "viewport": 390,
+      "text": "IdentityMD.",
+      "foreground": "rgb(240, 242, 233)",
+      "minimumContrast": 6.54,
+      "required": 3,
+      "passed": true
+    },
+    {
+      "viewport": 390,
+      "text": "Above the noise.",
+      "foreground": "rgb(179, 237, 120)",
+      "minimumContrast": 4.96,
+      "required": 3,
+      "passed": true
+    },
+    {
+      "viewport": 390,
+      "text": "Top tweets from the IdentityMD community.",
+      "foreground": "rgb(202, 210, 196)",
+      "minimumContrast": 6.96,
+      "required": 4.5,
+      "passed": true
+    },
+    {
+      "viewport": 390,
+      "text": "Top tweets from the IdentityMD community.",
+      "foreground": "rgb(202, 210, 196)",
+      "minimumContrast": 9.38,
+      "required": 4.5,
+      "passed": true
+    },
+    {
+      "viewport": 1440,
+      "text": "IdentityMD.",
+      "foreground": "rgb(240, 242, 233)",
+      "minimumContrast": 15.51,
+      "required": 3,
+      "passed": true
+    },
+    {
+      "viewport": 1440,
+      "text": "Above the noise.",
+      "foreground": "rgb(179, 237, 120)",
+      "minimumContrast": 12.75,
+      "required": 3,
+      "passed": true
+    },
+    {
+      "viewport": 1440,
+      "text": "Top tweets from the IdentityMD community.",
+      "foreground": "rgb(202, 210, 196)",
+      "minimumContrast": 11.29,
+      "required": 4.5,
+      "passed": true
+    }
+  ]
+}
